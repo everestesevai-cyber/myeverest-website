@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Everest</title>
+
+<title>MY EVEREST</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -14,332 +16,314 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#ffffff;
-color:#333;
+background:#f5f5f5;
 }
 
 header{
-background:#6b0f1a;
+background:#7b001c;
 color:white;
 text-align:center;
-padding:40px 20px;
+padding:30px 15px;
 }
 
 header h1{
-font-size:42px;
-margin-bottom:10px;
+font-size:38px;
+margin-bottom:8px;
 }
 
 header p{
-font-size:18px;
+font-size:16px;
+}
+
+.top-buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.btn{
+background:white;
+color:#7b001c;
+padding:12px 25px;
+border-radius:8px;
+font-weight:bold;
+text-decoration:none;
 }
 
 .section{
-padding:40px 20px;
+padding:30px 15px;
 max-width:1200px;
 margin:auto;
 }
 
-h2{
-color:#6b0f1a;
-margin-bottom:20px;
+.section-title{
 text-align:center;
+color:#7b001c;
+font-size:32px;
+margin-bottom:25px;
 }
 
-.services{
+.grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 gap:20px;
 }
 
 .card{
 background:white;
-border-left:5px solid #6b0f1a;
-padding:20px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
 border-radius:10px;
+padding:20px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
 .card h3{
-color:#6b0f1a;
+color:#7b001c;
 margin-bottom:10px;
 }
 
-.contact-box{
-background:#6b0f1a;
-color:white;
-padding:30px;
-border-radius:10px;
-text-align:center;
+details{
+margin-top:10px;
 }
 
-.btn{
-display:inline-block;
-margin:10px;
-padding:12px 25px;
-background:white;
-color:#6b0f1a;
-text-decoration:none;
+details summary{
+cursor:pointer;
 font-weight:bold;
-border-radius:5px;
+color:#7b001c;
+}
+
+details ul{
+padding-left:20px;
+margin-top:10px;
+}
+
+.properties{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.property-box{
+background:white;
+padding:18px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+font-weight:bold;
+}
+
+.contact{
+background:#7b001c;
+color:white;
+padding:30px;
+text-align:center;
+border-radius:10px;
+margin-top:30px;
 }
 
 footer{
-background:#6b0f1a;
+background:#7b001c;
 color:white;
 text-align:center;
-padding:20px;
+padding:15px;
 margin-top:30px;
 }
-</style>
 
+</style>
 </head>
+
 <body>
 
 <header>
+
 <h1>MY EVEREST</h1>
+
 <p>Complete Loan & Insurance Solutions</p>
+
+<div class="top-buttons">
+
+<a href="tel:8508331238" class="btn">
+📞 Call Now
+</a>
+
+<a href="https://wa.me/918508331238" class="btn">
+💬 WhatsApp Now
+</a>
+
+</div>
+
 </header>
 
 <section class="section">
-<h2>Loan & Insurance Services</h2>
 
-<div class="services">
+<h2 class="section-title">
+EVEREST ASSOCIATES
+</h2>
+
+<div class="grid">
 
 <div class="card">
-<h3>Property Loans</h3>
+
+<h3>Property Loan Services</h3>
+
+<details>
+
+<summary>Click Here</summary>
+
+<ul>
+<li>Home Loan</li>
+<li>Home Purchase Loan</li>
+<li>Home Construction Loan</li>
+<li>Home Renovation Loan</li>
+<li>Plot Purchase Loan</li>
+<li>Empty Land Loan</li>
+<li>Loan Against Property</li>
+<li>Mortgage Loan</li>
+<li>Commercial Property Loan</li>
+<li>Industrial Property Loan</li>
+</ul>
+
+</details>
+
 </div>
 
 <div class="card">
-<h3>Home Loans</h3>
+
+<h3>Vehicle Loan Services</h3>
+
+<details>
+
+<summary>Click Here</summary>
+
+<ul>
+<li>New Car Loan</li>
+<li>Used Car Loan</li>
+<li>Commercial Vehicle Loan</li>
+<li>Tata Ace Loan</li>
+<li>Pickup Loan</li>
+<li>Mini Truck Loan</li>
+<li>Bus Loan</li>
+<li>School Van Loan</li>
+<li>JCB Loan</li>
+<li>Tractor Loan</li>
+</ul>
+
+</details>
+
 </div>
 
 <div class="card">
-<h3>Home Purchase Loans</h3>
-</div>
 
-<div class="card">
-<h3>Vehicle Loans</h3>
-<a href="vehicle-loans.html" class="btn">Click Here</a>
-</div>
-
-<div class="card">
-<h3>Vehicle Insurance</h3>
-</div>
-
-<div class="card">
-<h3>Plot Purchase Loans</h3>
-</div>
-
-<div class="card">
-<h3>Empty Land Loans</h3>
-</div>
-
-<div class="card">
 <h3>Insurance Services</h3>
+
+<details>
+
+<summary>Click Here</summary>
+
+<ul>
+<li>Motor Insurance</li>
+<li>Car Insurance</li>
+<li>Bike Insurance</li>
+<li>Commercial Vehicle Insurance</li>
+<li>Health Insurance</li>
+<li>Life Insurance</li>
+<li>Property Insurance</li>
+</ul>
+
+</details>
+
 </div>
 
 </div>
+
 </section>
 
 <section class="section">
-<h2>Everest Properties</h2>
 
-<div class="services">
+<h2 class="section-title">
 
-<div class="card">
-<h3>Residential Plots</h3>
-</div>
-
-<div class="card">
-<h3>DTCP Approved Plots</h3>
-</div>
-
-<div class="card">
-<h3>Agri Lands</h3>
-</div>
-
-<div class="card">
-<h3>Villas & Individual Houses</h3>
-</div>
-
-<div class="card">
-<h3>Commercial Properties</h3>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="contact-box">
-
-<h2 style="color:white;">Contact Us</h2>
-
-<p><strong>Everest Consultancy Services</strong></p>
-<br>
-
-<p>📞 8508331238</p>
-<p>📞 8940760788</p>
+EVEREST PROPERTIES
 
 <br>
 
-<p>💬 WhatsApp Business</p>
-<p>8508331238</p>
-<p>8940760788</p>
+<span style="font-size:18px;">
+(Buying & Selling)
+</span>
 
-<br>
+</h2>
 
-<p>📧 info@myeverest.in</p>
-<p>📧 support@myeverest.in</p>
+<div class="properties">
+
+<div class="property-box">
+Residential Plots
+</div>
+
+<div class="property-box">
+DTCP Approved Plots
+</div>
+
+<div class="property-box">
+Agri Lands
+</div>
+
+<div class="property-box">
+Villas & Individual Houses
+</div>
+
+<div class="property-box">
+Commercial Properties
+</div>
+
+<div class="property-box">
+Industrial Properties
+</div>
+
+</div>
+
+<div class="contact">
+
+<h2>Contact Us</h2>
 
 <br>
 
 <p>
-Everest Consultancy Services<br>
-Samaskhan Pallivasal Street<br>
-Thiruppathur<br>
-Sivagangai District<br>
-Tamil Nadu - 630211
+📞 8508331238
 </p>
 
-<br>
-
-<a class="btn" href="tel:8508331238">Call Now</a>
-
-<a class="btn" href="https://wa.me/918508331238">WhatsApp</a>
-
-</div>
-</section>
-
-<footer>
-© 2026 My Everest | Everest Consultancy Services
-</footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Everest</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#ffffff;
-color:#333;
-}
-
-header{
-background:#6b0f1a;
-color:white;
-text-align:center;
-padding:40px 20px;
-}
-
-header h1{
-font-size:42px;
-margin-bottom:10px;
-}
-
-header p{
-font-size:18px;
-}
-
-.section{
-padding:40px 20px;
-max-width:1200px;
-margin:auto;
-}
-
-h2{
-color:#6b0f1a;
-margin-bottom:20px;
-text-align:center;
-}
-
-.services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-<h2>Everest Properties</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>Residential Plots</h3>
-</div>
-
-<div class="card">
-<h3>DTCP Approved Plots</h3>
-</div>
-
-<div class="card">
-<h3>Agri Lands</h3>
-</div>
-
-<div class="card">
-<h3>Villas & Individual Houses</h3>
-</div>
-
-<div class="card">
-<h3>Commercial Properties</h3>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="contact-box">
-
-<h2 style="color:white;">Contact Us</h2>
-
-<p><strong>Everest Consultancy Services</strong></p>
-<br>
-
-<p>📞 8508331238</p>
-<p>📞 8940760788</p>
-
-<br>
-
-<p>💬 WhatsApp Business</p>
-<p>8508331238</p>
-<p>8940760788</p>
-
-<br>
-
-<p>📧 info@myeverest.in</p>
-<p>📧 support@myeverest.in</p>
+<p>
+📞 8940760788
+</p>
 
 <br>
 
 <p>
-Everest Consultancy Services<br>
-Samaskhan Pallivasal Street<br>
-Thiruppathur<br>
-Sivagangai District<br>
-Tamil Nadu - 630211
+📧 info@myeverest.in
+</p>
+
+<p>
+📧 support@myeverest.in
 </p>
 
 <br>
 
-<a class="btn" href="tel:8508331238">Call Now</a>
-
-<a class="btn" href="https://wa.me/918508331238">WhatsApp</a>
+<p>
+Samaskhan Pallivasal Street,
+Thiruppathur,
+Sivagangai District,
+Tamil Nadu - 630211
+</p>
 
 </div>
+
 </section>
 
 <footer>
+
 © 2026 My Everest | Everest Consultancy Services
+
 </footer>
 
 </body>
 </html>
-<!-- vehicle-loans.html -->
