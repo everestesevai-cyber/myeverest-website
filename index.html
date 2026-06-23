@@ -1,6 +1,16 @@
++26
+-161
+Lines changed: 26 additions & 161 deletions
+Original file line number	Diff line number	Diff line change
+@@ -1,20 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
 <!DOCTYPE html><html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY EVEREST</title>
+<style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>MY EVEREST</title><style>
 *{
 margin:0;
@@ -8,129 +18,41 @@ padding:0;
 box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
-
+    
 body{
 background:#f5f5f5;
 }
-
-header{
-background:#7b001c;
-color:white;
-text-align:center;
-padding:30px 15px;
-}
-
-header h1{
-font-size:38px;
-margin-bottom:8px;
-}
-
-header p{
-font-size:16px;
-}
-
-.top-buttons{
-display:flex;
-justify-content:center;
-gap:15px;
-margin-top:20px;
-flex-wrap:wrap;
-}
-
-.btn{
-background:white;
-color:#7b001c;
-padding:12px 25px;
-border-radius:8px;
-font-weight:bold;
-text-decoration:none;
-}
-
-.section{
-padding:30px 15px;
-max-width:1200px;
-margin:auto;
-}
-
-.section-title{
-text-align:center;
-color:#7b001c;
-font-size:32px;
-margin-bottom:25px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-border-radius:10px;
-padding:20px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
-}
-
-.card h3{
-color:#7b001c;
-margin-bottom:10px;
-}
-
-details{
-margin-top:10px;
-}
-
-details summary{
-cursor:pointer;
-font-weight:bold;
-color:#7b001c;
-}
-
-details ul{
-padding-left:20px;
-margin-top:10px;
-}
-
-.properties{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:15px;
-margin-top:20px;
-}
-
-.property-box{
-background:white;
-padding:18px;
-text-align:center;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
-font-weight:bold;
-}
-
-.contact{
-background:#7b001c;
-color:white;
-padding:30px;
-text-align:center;
-border-radius:10px;
-margin-top:30px;
-}
-
-footer{
-background:#7b001c;
-color:white;
-text-align:center;
+@@ -130,48 +124,17 @@
 padding:15px;
 margin-top:30px;
 }
+</style>
+</head>
+<body>
+<header>
 </style></head><body><header>
 <h1>MY EVEREST</h1>
+<p>Complete Loan & Insurance Solutions</p>
+<div class="top-buttons">
+<a href="tel:8508331238" class="btn">
+📞 Call Now
+</a>
+<a href="https://wa.me/918508331238" class="btn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+         width="24" height="24">
+    WhatsApp Now
 <p>Complete Loan & Insurance Solutions</p><div class="top-buttons">
 <a href="tel:8508331238" class="btn">📞 Call Now</a><a href="https://wa.me/918508331238" class="btn">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="24" height="24">
 WhatsApp Now
 </a>
+</header>
+<section class="section">
+<h2 class="section-title">
+EVEREST ASSOCIATES
+</h2>
+<div class="grid">
+<div class="card">
 </div></header><section class="section"><h2 class="section-title">EVEREST ASSOCIATES</h2><div class="grid"><div class="card">
 <h3>Property Loan Services</h3>
 <details>
@@ -138,16 +60,13 @@ WhatsApp Now
 <ul>
 <li>Home Loan</li>
 <li>Home Purchase Loan</li>
-<li>Home Construction Loan</li>
-<li>Home Renovation Loan</li>
-<li>Plot Purchase Loan</li>
-<li>Empty Land Loan</li>
-<li>Loan Against Property</li>
-<li>Mortgage Loan</li>
+@@ -184,19 +147,11 @@ <h3>Property Loan Services</h3>
 <li>Commercial Property Loan</li>
 <li>Industrial Property Loan</li>
 </ul>
 </details>
+</div>
+<div class="card">
 </div><div class="card">
 <h3>Vehicle Loan Services</h3>
 <details>
@@ -155,16 +74,13 @@ WhatsApp Now
 <ul>
 <li>New Car Loan</li>
 <li>Used Car Loan</li>
-<li>Commercial Vehicle Loan</li>
-<li>Tata Ace Loan</li>
-<li>Pickup Loan</li>
-<li>Mini Truck Loan</li>
-<li>Bus Loan</li>
-<li>School Van Loan</li>
+@@ -209,19 +164,11 @@ <h3>Vehicle Loan Services</h3>
 <li>JCB Loan</li>
 <li>Tractor Loan</li>
 </ul>
 </details>
+</div>
+<div class="card">
 </div><div class="card">
 <h3>Insurance Services</h3>
 <details>
@@ -172,16 +88,69 @@ WhatsApp Now
 <ul>
 <li>Motor Insurance</li>
 <li>Car Insurance</li>
-<li>Bike Insurance</li>
-<li>Commercial Vehicle Insurance</li>
-<li>Health Insurance</li>
+@@ -231,109 +178,27 @@ <h3>Insurance Services</h3>
 <li>Life Insurance</li>
 <li>Property Insurance</li>
 </ul>
 </details>
+</div>
+</div>
+</section>
+<section class="section">
+<h2 class="section-title">
 </div></div></section><section class="section"><h2 class="section-title">
 EVEREST PROPERTIES
 <br>
+<span style="font-size:18px;">
+(Buying & Selling)
+</span>
+</h2>
+</span>
+</h2>
+<a href="https://docs.google.com/spreadsheets/d/1akCz2GaKwi1V6-Sr81rKVWArMWeDhFvCWDgOzVFURpU4/edit"
+   target="_blank"
+   class="btn">
+   More Details - Click Here
+</a>
+<div class="properties">
+<div class="properties">
+<div class="property-box">
+Residential Plots
+</div>
+<div class="property-box">
+DTCP Approved Plots
+</div>
+<div class="property-box">
+Agri Lands
+</div>
+<div class="property-box">
+Villas & Individual Houses
+</div>
+<div class="property-box">
+Commercial Properties
+</div>
+<div class="property-box">
+Industrial Properties
+</div>
+</div>
+<div class="contact">
+<h2>Contact Us</h2>
+<br>
+<p>
+📞 8508331238
+</p>
+<p>
+📞 8940760788
+</p>
+<br>
+<p>
+📧 info@myeverest.in
+</p>
+<p>
+📧 support@myeverest.in
+</p>
+<br>
+<p>
 <span style="font-size:18px;">(Buying & Selling)</span>
 </h2><div class="properties">
 <div class="property-box">Residential Plots</div>
@@ -198,7 +167,13 @@ Samaskhan Pallivasal Street,
 Thiruppathur,
 Sivagangai District,
 Tamil Nadu - 630211
+</p>
+</div>
+</section>
+<footer>
 </p></div></section><footer>
 © 2026 My Everest | Everest Consultancy Services
+</footer>
+</body>
 </footer></body>
 </html>
